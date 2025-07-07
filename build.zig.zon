@@ -1,0 +1,20 @@
+.{
+    .name = .PlugInZ_FreeType,
+    .version = "0.0.0",
+    .fingerprint = 0x2968dd6c48731e4, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.0-dev.695+041eedc1c",
+    .dependencies = .{
+        .freetype = .{
+            .url = "https://github.com/freetype/freetype/archive/master.tar.gz",
+            .hash = "N-V-__8AAAY3qgBawqigsSmr-HBZbAUdTC7f0wKVeetLVmvM",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
